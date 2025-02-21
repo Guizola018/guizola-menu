@@ -1,5 +1,7 @@
 body {
         font-family: Arial, sans-serif;
+        margin: 0;
+        padding-top: 70px;
 }
 
 .hero {
@@ -30,6 +32,8 @@ footer {
 }
 
 .navbar {
+        margin: 0;
+        padding: 0;
         position: fixed;
         top: 0;
         width: 100%;
@@ -39,3 +43,21 @@ footer {
 body {
         padding-top: 70px;
 }
+
+html, body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+}
+
+.navbar {
+        margin: 0;
+        padding: 0;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+        background-color: #343a40; 
+}
+
